@@ -16,7 +16,7 @@ services:
   django_app:
     build:
       context: .
-    image: "rayusingh/notes-app,"
+    image: "rayusingh/notes-app"
     container_name: "djangocicd-web-1"
     ports:
       - "8000:8000"
